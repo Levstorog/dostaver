@@ -240,53 +240,47 @@ right: 400px;
     text-align: center;
 
 }
-td {
-    border: 2px solid white;
-    padding: 20px 40px;
-    text-align: left;
-    background-color:  #7700D1;
-}
 table {
-    border-spacing: 0px;
-    border-collapse: collapse;
-    text-align: center;
+    background-color: #7700d1;
+    color: white;
+    border-spacing: 0;
     display: flex;
     justify-content: center;
+    text-align: left;
 }
-
+.rer {
+    width: 188px;
+}
+.der {
+    width: 105px;
+}
+td, tr {
+    border: 1px solid white;
+    padding: 22px 0 22px 22px;
+    height: 30px;
+}
 .white {
     background-color: white;
-    color: #7700D1;
-    border: 2px solid  #7700D1;
-    border-left: 2px solid white;
+    color: #7700d1;
+
 }
-.dont_border{
-    border: 0px;
+.bord {
+    border-left: 1px solid #7700d1;
 }
-.int {
-    width: 200px;
+.rad1 {
+    border-radius: 38px 0 0 0;
 }
-.border_left2 {
-    border-radius: 0px 0px 0px 50px;
+.rad2 {
+    border-radius: 0 38px 0 0;
 }
-.border_right1 {
-    border-radius: 0px 50px 0px 0px;
+.rad3 {
+    border-radius:0 0 38px 0;
 }
-.border_right2 {
-    border-radius: 0px 0px 50px 0px;
+.rad4 {
+    border-radius: 0 0 0 38px;
 }
-.dont_border1 {
-    border-top: 2px solid white;
-    border-left: 2px solid white;
-    border-radius: 20px;
-}
-.top {
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-}
-.top2{
-    border-bottom: 2px solid white;
-    border-radius: 0 30px 0 0;
+.bord2 {
+    border-top: 1px solid #7700d1;
 }
 
 .svize {
