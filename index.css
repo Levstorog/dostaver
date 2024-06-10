@@ -553,6 +553,16 @@ footer {
 .foot2 {
     display: none;
 }
+.perv {
+    margin: 0;
+    border-bottom: 2px dotted #4c0085;
+    width: 240px;
+}
+.vtor {
+    margin: 0;
+    border-bottom: 2px dotted #4c0085;
+    width: 130px;
+}
 @media(max-width: 1440px) {
     .text_main {
         width: 900px;
