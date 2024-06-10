@@ -13,6 +13,9 @@ html {
 
 }
 /***************************************************/
+button {
+    cursor: pointer;
+}
 .menu {
     display: none;
 }
